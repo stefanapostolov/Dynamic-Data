@@ -1,10 +1,9 @@
 /*
 
 	The program manipulates a list of characters. It is possible to
-	insert a character in the list in alphabetic order (with an insert
+	insert a character in the list in an alphabetic order (with an insert
 	function) or delete a character from the list (with a delete function)
 	                                      
-
 */
 
 #include <stdio.h>
@@ -18,7 +17,7 @@ struct listNode {
 typedef struct listNode ListNode; // typedefing listNode
 typedef ListNode *ListNodePtr; // typedefing ListNode*
 
-// prototipi
+// prototypes
 void insert(ListNodePtr *sPtr, char value);
 char delete(ListNodePtr *sPtr, char value);
 int isEmpty(ListNodePtr sPtr);
